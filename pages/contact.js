@@ -9,7 +9,7 @@ function contact() {
         message:""
     })
     const handleClickEvent = () => {
-        axios.post("http://localhost/api/enquery",details).then(()=>{
+        axios.post("http://139.59.57.180//api/enquery",details).then(()=>{
             router.push("/")
             // alert("Enquery has Been Sent")
         })
