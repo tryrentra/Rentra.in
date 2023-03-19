@@ -73,7 +73,7 @@ const About = () => {
               Rent From Anyone
             </h2>
             <p className="leading-relaxed text-base">
-            Renting made Easy. We tried the nearby people to get Goods to Rent for you.
+            "Rent from anyone" - A simple and convenient way to borrow items from your local community. Browse, rent, and save money on items you need for short-term use.
             </p>
           </div>
         </div>
