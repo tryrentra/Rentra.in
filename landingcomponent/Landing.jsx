@@ -24,7 +24,7 @@ const HomeScreen = () => {
     })
       .then(function (response) {
         // console.log(response);
-        alert(response.data.response)
+//         alert(response.data.response)
       })
       .catch(function (error) {
         alert(error);
