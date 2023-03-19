@@ -18,7 +18,7 @@ const HomeScreen = () => {
       // Retrieve the user's details after successful login
       const waName = otplessUser.waName;
       const waNum = otplessUser.waNumber;
-      axios.post('http://139.59.57.180/api/signup', {
+      axios.post('https://busy-blue-gosling-suit.cyclic.app/api/signup', {
       waName,
       waNum
     })
