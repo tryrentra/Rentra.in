@@ -14,8 +14,11 @@ const HeroSection = () => {
     "https://cdnl.iconscout.com/lottie/premium/thumb/tools-box-6127207-5003373.gif",
     "https://cdnl.iconscout.com/lottie/premium/thumb/piano-6407655-5349110.gif",
     "https://cdnl.iconscout.com/lottie/premium/thumb/neckless-6292429-5221909.gif",
-    "https://cdnl.iconscout.com/lottie/premium/thumb/camera-6906006-5650577.gif"
-
+    "https://cdnl.iconscout.com/lottie/premium/thumb/camera-6906006-5650577.gif",
+    "https://cdnl.iconscout.com/lottie/premium/thumb/drill-machine-7347031-6010919.gif",
+    "https://cdnl.iconscout.com/lottie/premium/thumb/woofers-7675860-6159262.gif",
+    "https://cdnl.iconscout.com/lottie/premium/thumb/fire-fighter-ladder-5794995-4881430.gif",
+    "https://cdnl.iconscout.com/lottie/premium/thumb/couple-bag-packing-for-tour-3573984-3056983.gif"
       
   ];
   useEffect(() => {
@@ -41,9 +44,9 @@ const HeroSection = () => {
       />
     </div>
     <h1 className="title-font text-6xl font-medium text-gray-900 text-center mb-4">
-      <span className="lg:text-7xl md:text-6xl sm:text-5xl py-14 font-bold" >Rentra</span>
-      <br className=" lg:inline-block" />
-      <span className="text-3xl">Rent Anything!</span>
+      <span className="lg:text-7xl md:text-6xl sm:text-5xl py-14 font-bold" >Rent Anything!</span>
+      {/* <br className=" lg:inline-block" /> */}
+      {/* <span className="text-3xl">Rent Anything!</span> */}
     </h1>
     <p className={`inline-block mb-4 text-center`}>
       <Typewriter
@@ -58,12 +61,12 @@ const HeroSection = () => {
     <div id="otpless" className="flex justify-center items-center text-white">
       .
     </div>
-    <button onClick={()=>{
-      router.push("/contact")
-    }} type="submit" class="py-3 
-    mt-4 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 
-          bg-slate-900
-          focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Contact Us</button>
+    {/* <button onClick={()=>{ */}
+      {/* router.push("/contact") */}
+    {/* }} type="submit" class="py-3  */}
+    {/* mt-4 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800  */}
+          {/* bg-slate-900 */}
+          {/* focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Contact Us</button> */}
   </div>
 </section>
 
