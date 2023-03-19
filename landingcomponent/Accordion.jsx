@@ -70,7 +70,7 @@ const AccordionCard = (props) => {
   return (
     <div>
       <button
-        className="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-900 bg-gray-200 hover:bg-gray-300 focus:outline-none focus:bg-gray-200 mt-2"
+        className="flex items-center justify-between w-full p-4 text-lg font-medium text-left text-gray-900 shadow-md  focus:outline-none  mt-2 rounded-2xl "
         onClick={() => setIsOpen(!isOpen)}
       >
         <span>{props.tittle}</span>

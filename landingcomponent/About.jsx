@@ -34,7 +34,7 @@ const About = () => {
               Affordable Price
             </h2>
             <p className="leading-relaxed text-base">
-              Dont But anything. Make it yours for a Day or a Week and Rent with Rentra
+              Dont Buy anything. Make it yours for a Day or a Week and Rent with Rentra
             </p>
           </div>
           <div className="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-zinc-100 text-stone-900 flex-shrink-0">

@@ -41,6 +41,7 @@ const HomeScreen = () => {
         <ol>
           <MenuIcon onClick={() => { menustate == true ? setmenustate(false) : setmenustate(true) }} />
           <li onClick={() => { setmenustate(false); router.push("/") }}>Home</li>
+          <li onClick={() => { setmenustate(false); router.push("/faq") }}>FAQ</li>
           {/* <li onClick={() => { setmenustate(false); router.push("/carrier") }}>Carrer</li> */}
           <li onClick={() => { setmenustate(false); router.push("/about") }}>About us</li>
           <li onClick={() => { setmenustate(false); router.push("/how-it-works") }}>How it Works</li>
@@ -57,7 +58,7 @@ const HomeScreen = () => {
       <HeroSection />
       <div className={style.componentDiv}>
         <About />
-        <Accordion />
+        {/* <Accordion /> */}
         <Testimonal />
       </div>
       <Footer />

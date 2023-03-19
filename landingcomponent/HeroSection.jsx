@@ -56,17 +56,12 @@ const HeroSection = () => {
         typeSpeed={30}
         deleteSpeed={30}
         delaySpeed={500}
+        cursorBlinking={true}
       />
     </p>
     <div id="otpless" className="flex justify-center items-center text-white">
       .
     </div>
-    {/* <button onClick={()=>{ */}
-      {/* router.push("/contact") */}
-    {/* }} type="submit" class="py-3  */}
-    {/* mt-4 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800  */}
-          {/* bg-slate-900 */}
-          {/* focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Contact Us</button> */}
   </div>
 </section>
 
